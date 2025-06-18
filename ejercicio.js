@@ -49,3 +49,45 @@ console.log(newArray)
 
 
 
+// // const data = [
+// //     {
+// //         id : 1,
+// //         title: 'Iron man',
+// //         year : 2008
+// //     },
+// //     {
+// //         id : 2,
+// //         title: 'Spiderman Homecoming',
+// //         year : 2017
+// //     },
+// //     {
+// //         id : 3,
+// //         title: 'Avengers: EndGame',
+// //         year : 2019
+// //     }
+    
+// // ]
+// const data = []
+// // const getData = () => {
+// //     return data
+// // }
+// const getData = () => {
+//     return new Promise((resolve, reject) => {
+//         if (data.length === 0){
+//             reject( new Error ('No hay datos'))
+//         }
+//         setTimeout(() =>{
+//             resolve(data)
+//         },5000)
+//     })
+// }
+// // getData().then((data) => console.log(data))
+// async function fetchingData (){
+//     try {
+//         const dataFetch = await getData()
+//         console.log(dataFetch)
+//     }catch (e){
+//         console.log(e.message)
+//     }
+// }
+// fetchingData()
